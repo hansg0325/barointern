@@ -139,7 +139,7 @@ Response:
 ## 🚀 배포 정보
 - EC2 주소: [http://15.165.17.12:8080](http://15.165.17.12:8080)
 
-- Swagger UI 주소: [http://15.165.17.12>:8080/swagger-ui/index.html](http://15.165.17.12:8080/swagger-ui/index.html)
+- Swagger UI 주소: [http://15.165.17.12:8080/swagger-ui/index.html](http://15.165.17.12:8080/swagger-ui/index.html)
 
 ---
 
