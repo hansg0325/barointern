@@ -56,17 +56,8 @@ java -jar build/libs/barointern.jar
 접속 주소: http://localhost:8080
 
 ### 2. AWS EC2 배포
-```
-# EC2 접속
-ssh -i your-key.pem ubuntu@your-ec2-ip
 
-# JAR 업로드
-scp -i your-key.pem build/libs/jwt-auth-app.jar ubuntu@your-ec2-ip:/home/ubuntu/
-
-# 애플리케이션 실행
-java -jar barointern.jar
-```
-접속 주소: http://(EC2 Public IP):8080
+접속 주소: http://15.165.17.12:8080
 
 ---
 
@@ -139,16 +130,16 @@ Response:
 ---
 
 ## 📚 API 명세 (Swagger UI)
-- Swagger URL: [http://<EC2 Public IP>:8080/swagger-ui/index.html](http://<EC2 Public IP>:8080/swagger-ui/index.html)
+- Swagger URL: [http://15.165.17.12:8080/swagger-ui/index.html](http://15.165.17.12:8080/swagger-ui/index.html)
 
 - 문서 경로: /v3/api-docs
 
 ---
 
 ## 🚀 배포 정보
-- EC2 주소: [http://<EC2 Public IP>:8080](http://<EC2 Public IP>:8080)
+- EC2 주소: [http://15.165.17.12:8080](http://15.165.17.12:8080)
 
-- Swagger UI 주소: [http://<EC2 Public IP>:8080/swagger-ui/index.html](http://<EC2 Public IP>:8080/swagger-ui/index.html)
+- Swagger UI 주소: [http://15.165.17.12>:8080/swagger-ui/index.html](http://15.165.17.12:8080/swagger-ui/index.html)
 
 ---
 
